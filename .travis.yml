@@ -12,6 +12,4 @@ deploy:
   provider: heroku
   api_key:
     secure: "w2JgOBbnak1XAgY270xxOy9K7p64rmUE40Ouriuar8SlHs+yJEtOujFSVWpgoktpHL3cD1gIqLC6m+nZxfCS2qTPF7nT0nA1jqTDANKXK3alQwpy0tRqwZL/2ySuZz/QV3VOSwZXZyRofFF3O44tt4hQu/MJjspm9bQetlEHw6zVYjGIpQeULu3JnOJ6+sS0+6NZ0zH0u5GWMdvFzKIAGa8qV8NQLFmEGmNnev/toJstKZMgWsQmsJmImTsKNPvezx0sg+8fwTcq5x1+pFEhWCQoKUqcO/drlP2M4f0umrsLHRRFUetgaAZBiCVYSyL59AVbImxTRP17vasldVIEzikVveb+cOzAd03+BFtYd8AGyagRU+27QxNHbfEh9THj4t/I2ZMTfORHN1709qA42tH7aJnfldqPZT/jCS1n02DHuVcrO+q4e0OJu6NjhUgmtTYPaBCWA+dqcmaSYSnm7tM4YWy0LcXWw+aJcr1Z6ZnEAZdcy79WJVig7YRRp5Ky/KU5ZKb/Pq5iG48Z/iIGV9orBymLUBWDAiK/iNODXZaS52OCTC5SZk6wuKP2lckdlbyC4KrejRHcmmBEcRtKBALEoiEHsKKGFFOqdkvHLQjA47iNcnwQoSJQX9dKB305iaYGUyyLMb6LEBNgas0QpOaFc0m5IsBkn9QQX8AU+us="
-  app: text-analyze-app
-  on:
-    branch: master
+  app: text-analyze
