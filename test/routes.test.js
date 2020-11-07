@@ -45,3 +45,5 @@ describe("Test a 404", () => {
         expect(res.statusCode).toBe(404);
     });
 });
+
+afterAll(async () => { await app.close() });

@@ -54,8 +54,4 @@ app.get("/", (req, res) => {
   res.status(200).send("API is running!");
 });
 
-app.listen(port, () => {
-  console.log(`running at port ${port}`);
-});
-
-module.exports = app;
+module.exports = app.listen(port, () => console.log(`running at port ${port}`));
