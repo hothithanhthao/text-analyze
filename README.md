@@ -8,7 +8,7 @@
 This project is a simple backend Nodejs to analyze text.
 
 ## Technologies
-Project is created with MERN stack:
+Project is created with:
 * Node.js
 * Jest
 * Supertest
