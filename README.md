@@ -15,7 +15,9 @@ Project is created with MERN stack:
 * TravisCI 
 
 ## Setup
-To see the user interface through browser 
+To see the user interface through browser https://text-analyze-app.herokuapp.com/
+To get all texts https://text-analyze-app.herokuapp.com/get_texts
+To post any texts to analyze https://text-analyze-app.herokuapp.com/new_text
 
 To run this project, install it locally using npm:
 
