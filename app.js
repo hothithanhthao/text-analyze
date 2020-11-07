@@ -18,9 +18,7 @@ const texts = [{"textLength":{"withSpaces":15,"withoutSpaces":11},"wordCount":3,
 app.post("/new_text", (req, res) => {
   const new_text = req.body;
   let result = {};
-  console.log(new_text);
   if(new_text.text){
-    console.log(new_text.text);
     result = analyseReceivedText(new_text.text);
     texts.push({...result});
     res.status(200).json({result});
