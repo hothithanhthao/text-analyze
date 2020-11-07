@@ -8,3 +8,8 @@ script:
 branches:
   only:
     - main
+deploy:
+  provider: heroku
+  api_key:
+    secure: ce075736-31bf-45ce-9e54-350541613222
+  app: text-analyze
